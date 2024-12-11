@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Oswald:wght@200..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+     font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+body#elk{
+    background-color:gray;
+}
+
+body#deer{
+    background-color: gray;
+}
+body#uplandbird{
+    background-color:gray;
+}
+body#packages{
+    background-color:gray;
+}
+body#outfitting{
+    background-color:gray;
+}
+
+#wrap{
+    width:80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer{
+    padding: 2%;
+    margin: 2%;
+    background-color: #fff;
+}
+
+.photo {
+    width: 100%
+}
+
+header, footer{
+    background-color: saddlebrown;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+header {
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+header h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+#home header, #home footer {
+    background-color:saddlebrown;
+}
+#elk header, #elk footer {
+    background-color:saddlebrown;
+}
+#deer header, #deer footer {
+    background-color:saddlebrown;
+}
+#uplandbird header, #uplandbird footer {
+    background-color:saddlebrown;
+}
+#packages header, #packages footer {
+    background-color:saddlebrown;
+}
+nav{
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+   
+}
+section {
+    text-align: center;
+    background-color: tan;
+    padding: 30px;
+}
+#elk nav{
+    background-color:black;
+}
+#deer nav{
+    background-color:black;
+}
+#uplandbird nav{
+    background-color:black;
+
+}
+
+
+#packages nav{
+    background-color:black;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav li {
+    display: inline;
+   
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    text-align: center;
+   
+}
+
+nav a:hover {
+    background-color: lightyellow;
+    color:black;
+}
+#elk section{
+    overflow:auto;
+    padding:0;
+    background-color: lightyellow;
+}
+section{
+    overflow:auto;
+    padding:0;
+    background-color: lightyellow;
+}
+.river {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+.elk {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+.uplandbird {
+    float:right;
+    width:100%;
+    margin: 0 0 2% 2%;
+}
+.packages {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+.deer {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+   
+ @media screen and (max-width:800px) {
+        nav {
+    padding: 0;
+   
+}
+
+        nav,aside {
+            padding: 0;
+        }
+        #wrap {
+            width: 100%;
+        }
+        body{
+            background-color: white;
+        }
+       
+        nav a{
+            display:block;
+            width:100%;
+        }
+        nav ul, nav li{
+            margin:0;
+            padding:0;
+        }
+nav a {
+    display:block;
+    width:100%;
+    text-align:center;
+    padding: 20px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+nav ul, nav li,  {
+    margin:0;
+    padding:0;
+}
+     .fall {
+         width: 96%;
+         float: none;
+         margin:0;
+     }
+     }
+.uplandbird{
+    width: 100%
+}
